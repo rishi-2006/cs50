@@ -1,28 +1,274 @@
-# cs50
-My Journey Through Harvard CS50 – 10 Week Learning Experience
+# 🎓 My Journey Through CS50 -- Harvard University
 
-I completed the CS50: Introduction to Computer Science online program offered by Harvard University. This course was one of the most challenging and exciting learning experiences for me as a student. Over the span of ten weeks, I learned many important concepts of computer science, programming, and problem-solving. Each week introduced new topics and gradually improved my logical thinking and coding skills.
+![CS50](https://img.shields.io/badge/Harvard-CS50-red)
+![Course](https://img.shields.io/badge/Course-Introduction%20to%20Computer%20Science-blue)
+![Languages](https://img.shields.io/badge/Languages-C%20%7C%20Python%20%7C%20SQL%20%7C%20JavaScript-green)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
-In Week 0, I started my journey with Scratch programming. At first, it felt simple because it used visual blocks instead of traditional coding. However, this week helped me understand the basic concepts of programming such as loops, conditions, and variables. It gave me a clear idea of how programs are structured and how logical thinking is important in solving problems.
+> This repository documents my personal learning journey through **CS50:
+> Introduction to Computer Science** offered by **Harvard University**.\
+> Over ten weeks I explored programming, algorithms, memory management,
+> databases, and web development while improving my problem‑solving
+> abilities.
 
-In Week 1, I was introduced to the C programming language. This was my first experience writing real code using a programming language. Initially, it was a bit difficult to understand syntax, compiling, and debugging errors. But through practice, I started understanding how programs are written and executed. Learning about functions, conditions, and loops helped me build small programs and improved my confidence in coding.
+------------------------------------------------------------------------
 
-During Week 2, the focus was on arrays and strings. I learned how data can be stored in arrays and how strings are handled in C. This week helped me understand how programs process large amounts of data. Writing programs involving arrays improved my logical thinking and helped me understand the importance of structured data storage.
+# 📚 About the Course
 
-In Week 3, I learned about algorithms and their efficiency. This week was very interesting because it explained how computers search and sort data. I studied different searching and sorting algorithms and learned about Big-O notation, which measures how efficient an algorithm is. This week made me realize that writing code is not only about making it work but also about making it efficient.
+CS50 is one of the most well‑known introductory computer science
+courses.\
+The course teaches fundamental concepts of programming and computational
+thinking while guiding students through real programming challenges.
 
-In Week 4, the course introduced memory management. This topic was quite challenging because it involved pointers and dynamic memory allocation. Understanding how memory works inside a computer helped me see how programs manage data internally. Although it was complex at first, practicing pointer-based programs helped me gain a deeper understanding of programming.
+Throughout this program I gained experience in:
 
-In Week 5, I learned about data structures such as linked lists, stacks, queues, and hash tables. This week was important because data structures are fundamental to computer science. Implementing these structures in C helped me understand how complex systems manage and organize data efficiently.
+-   Programming fundamentals
+-   Algorithms and efficiency
+-   Data structures
+-   Databases and SQL
+-   Web development
+-   Building real projects
 
-In Week 6, the course shifted from C to Python. This was a refreshing experience because Python has a simpler syntax compared to C. I realized how programming concepts remain the same across languages while the syntax changes. This week helped me write programs faster and understand how high-level programming languages simplify development.
+Official Course Website:\
+https://cs50.harvard.edu
 
-During Week 7, I learned about databases and SQL. This week introduced me to how data is stored and managed in real-world applications. Writing SQL queries to retrieve and manipulate data helped me understand the backend structure of many software systems and websites.
+------------------------------------------------------------------------
 
-In Week 8, the course moved into web development with HTML, CSS, and JavaScript. This week was exciting because I could finally see my work visually in a web browser. Creating web pages and adding styles and interactivity made programming more creative and engaging.
+# 🗂 Repository Structure
 
-In Week 9, I learned about Flask and how to build dynamic web applications. This week combined everything I had learned earlier, including Python, databases, and web technologies. Building a web application helped me understand how frontend and backend systems work together.
+    CS50/
+    │
+    ├── week0/      # Scratch
+    ├── week1/      # C Programming Basics
+    ├── week2/      # Arrays and Strings
+    ├── week3/      # Algorithms
+    ├── week4/      # Memory
+    ├── week5/      # Data Structures
+    ├── week6/      # Python
+    ├── week7/      # SQL
+    ├── week8/      # HTML, CSS, JavaScript
+    ├── week9/      # Flask Web Applications
+    └── week10/     # Final Project
 
-Finally, in Week 10, I completed my final project. This project allowed me to apply everything I had learned throughout the course. Working on the project was both challenging and rewarding because it demonstrated how all the concepts connect to build real-world applications.
+------------------------------------------------------------------------
 
-Overall, completing the CS50 program was a highly valuable experience for me. It improved my problem-solving abilities, strengthened my programming skills, and gave me a strong foundation in computer science. The course was challenging at times, but every week I felt a sense of achievement as I learned something new. This journey has motivated me to continue exploring programming and technology in the future.
+# 🚀 Week‑by‑Week Learning Experience
+
+## Week 0 -- Scratch 🎮
+
+My CS50 journey began with Scratch. Instead of writing traditional code,
+I used visual blocks to build programs.\
+Although it seemed simple at first, it helped me understand core
+programming ideas such as conditions, loops, and variables.\
+This week showed me that programming is mostly about **logical thinking
+and problem solving**.
+
+------------------------------------------------------------------------
+
+## Week 1 -- C Programming 💻
+
+In Week 1 I started learning the C programming language.\
+This was my first experience writing real code, compiling programs, and
+debugging errors.
+
+Example program:
+
+``` c
+#include <stdio.h>
+
+int main(void)
+{
+    printf("Hello, world!\n");
+}
+```
+
+Initially it was challenging, but it gave me a strong foundation in
+programming.
+
+------------------------------------------------------------------------
+
+## Week 2 -- Arrays and Strings 📊
+
+This week focused on storing and processing data using arrays and
+strings.\
+I learned how programs manage multiple values and how text is handled
+inside a program.
+
+Working with arrays improved my logical thinking and understanding of
+data manipulation.
+
+------------------------------------------------------------------------
+
+## Week 3 -- Algorithms 🔍
+
+This week introduced algorithms and efficiency.
+
+I studied searching and sorting algorithms such as:
+
+  Algorithm       Purpose
+  --------------- -----------------------------------
+  Linear Search   Searching elements sequentially
+  Binary Search   Efficient search in sorted lists
+  Bubble Sort     Basic sorting method
+  Merge Sort      Faster divide‑and‑conquer sorting
+
+I also learned **Big‑O notation**, which measures algorithm efficiency.
+
+------------------------------------------------------------------------
+
+## Week 4 -- Memory 🧠
+
+This week focused on how computers manage memory.
+
+Topics included:
+
+-   Pointers
+-   Stack vs Heap
+-   Dynamic memory allocation
+
+Understanding pointers was difficult at first but extremely valuable for
+understanding how programs work internally.
+
+------------------------------------------------------------------------
+
+## Week 5 -- Data Structures 🗃
+
+In this week I explored important data structures such as:
+
+-   Linked Lists
+-   Stacks
+-   Queues
+-   Hash Tables
+-   Trees
+
+These structures showed how large systems efficiently organize and store
+data.
+
+------------------------------------------------------------------------
+
+## Week 6 -- Python 🐍
+
+After working with C, switching to Python felt easier because of its
+simpler syntax.
+
+Example:
+
+``` python
+print("Hello, World!")
+```
+
+Python allowed me to focus more on solving problems rather than worrying
+about complicated syntax.
+
+------------------------------------------------------------------------
+
+## Week 7 -- SQL and Databases 🗄
+
+This week introduced relational databases and SQL queries.
+
+Example SQL query:
+
+``` sql
+SELECT name, price
+FROM stocks
+WHERE price > 100;
+```
+
+I learned how applications store and retrieve large amounts of data
+efficiently.
+
+------------------------------------------------------------------------
+
+## Week 8 -- Web Development 🌐
+
+This week was exciting because I started building web pages using HTML,
+CSS, and JavaScript.
+
+Example HTML:
+
+``` html
+<h1>Hello World</h1>
+<p>This is my first web page.</p>
+```
+
+Seeing my work appear visually in the browser made programming more
+engaging.
+
+------------------------------------------------------------------------
+
+## Week 9 -- Flask Web Applications ⚙️
+
+In Week 9 I learned the Flask framework for building dynamic web
+applications.
+
+This week combined several topics including:
+
+-   Python programming
+-   Databases
+-   HTML templates
+-   Backend logic
+
+It helped me understand how real web applications function.
+
+------------------------------------------------------------------------
+
+## Week 10 -- Final Project 🏁
+
+The final week focused on creating a complete project that applied
+everything learned throughout the course.
+
+This project allowed me to combine programming, web development, and
+databases to build a working application.
+
+Completing the final project was one of the most rewarding parts of the
+course.
+
+------------------------------------------------------------------------
+
+# 🛠 Technologies Used
+
+    C
+    Python
+    SQL
+    HTML
+    CSS
+    JavaScript
+    Flask
+    Git
+
+------------------------------------------------------------------------
+
+# 💡 Skills Gained
+
+-   Problem solving and computational thinking
+-   Writing efficient algorithms
+-   Memory management
+-   Data structures implementation
+-   Web application development
+-   Database querying and management
+
+------------------------------------------------------------------------
+
+# 🌟 Final Thoughts
+
+Completing the CS50 course was an incredible experience.\
+Every week presented new challenges, but overcoming them improved my
+confidence and programming abilities.
+
+This journey strengthened my interest in **computer science and software
+development**, and it motivated me to continue learning and building new
+projects.
+
+------------------------------------------------------------------------
+
+# 📜 Acknowledgement
+
+Special thanks to **Professor David J. Malan** and **Harvard
+University** for providing such an excellent course and making
+high‑quality computer science education accessible to learners
+worldwide.
+
+------------------------------------------------------------------------
+
+⭐ If you are also learning CS50, feel free to explore this repository
+and learn along with me!
